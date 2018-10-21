@@ -1,24 +1,15 @@
+# My Hexo theme
+Forked from [pinggod/hexo-theme-apollo](https://github.com/pinggod/hexo-theme-apollo)。主要改了改标签的CSS。
 ![hexo-theme-apollo](https://cloud.githubusercontent.com/assets/9530963/13026956/08e76eca-d277-11e5-8bfc-2e80cea20a0d.png)
 
-## 文档
-
-- [中文文档](https://github.com/pinggod/hexo-theme-apollo/blob/master/doc%2Fdoc-zh.md)
-- [Document](https://github.com/pinggod/hexo-theme-apollo/blob/master/doc%2Fdoc-en.md)
-
-## 贡献
-
-该项目不再接受添加新特性、功能的 pull request，所有创造性的想法请 fork 该项目之后自由发挥。
 
 ## 安装
-
-[![asciicast](https://asciinema.org/a/emrvroa9054hz6k8ise0uxh2u.png)](https://asciinema.org/a/emrvroa9054hz6k8ise0uxh2u)
-
 ``` bash
 hexo init Blog 
 cd Blog 
 npm install
 npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
-git clone https://github.com/pinggod/hexo-theme-apollo.git themes/apollo
+git clone https://github.com/nladuo/hexo-theme-apollo.git themes/apollo
 ```
 
 ## 启用
@@ -35,13 +26,6 @@ archive_generator:
     yearly: false
     monthly: false
     daily: false
-```
-
-## 更新
-
-``` bash
-cd themes/apollo 
-git pull
 ```
 
 ## License
